@@ -80,7 +80,7 @@ const Navbar = () => {
 
             <div className="flex items-center">
                 <Link href="/" className="flex items-center">
-                    <h1 className={`font-bold text-4xl ml-3 italic ${limelight.className} ${brandColor} hover:text-emerald-500 hover:transition-colors`}>
+                    <h1 className={`font-bold text-4xl italic ${limelight.className} ${brandColor} hover:text-emerald-500 hover:transition-colors`}>
                         Vylia
                     </h1>
                 </Link>
