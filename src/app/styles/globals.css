@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.font-limelight {
+  font-family: var(--font-limelight);
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;

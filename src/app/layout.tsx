@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
 import "./styles/globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Limelight } from "next/font/google";
 import Navbar from "./components/Navbar";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+});
+
+const limelight = Limelight({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-limelight",
 });
 
 export const metadata: Metadata = {
@@ -19,10 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable} font-sans antialiased`}
-      >
+    <html lang="en" className={`${inter.variable} ${limelight.variable}`}>
+      <body className={`font-sans antialiased`}>
         <Navbar />
         {children}
       </body>

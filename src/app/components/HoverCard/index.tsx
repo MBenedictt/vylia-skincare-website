@@ -8,7 +8,7 @@ interface HoverCardProps {
 const HoverCard = ({ title, description }: HoverCardProps) => {
     return (
         <div
-            className="h-[400px] max-md:h-[320px] w-[320px] max-md:w-[230px] flex-shrink-0 bg-stone-100 relative overflow-hidden"
+            className="font-inter h-[400px] max-md:h-[320px] w-[320px] max-md:w-[230px] flex-shrink-0 bg-stone-100 relative overflow-hidden"
         >
             {/* Overlay */}
             <div

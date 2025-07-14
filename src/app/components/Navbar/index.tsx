@@ -40,12 +40,11 @@ const Navbar = () => {
 
     return (
         <div
-            className={`w-full h-[70px] fixed top-0 left-0 flex justify-between items-center px-10 max-md:px-5 z-50 transition-all duration-300 ${bgClass} ${textClass}`}
+            className={`font-inter w-full h-[70px] fixed top-0 left-0 flex justify-between items-center px-10 max-md:px-5 z-50 transition-all duration-300 ${bgClass} ${textClass}`}
         >
 
-
             <ul className="flex items-center gap-10 max-md:gap-5 max-sm:gap-3">
-                <li className="font-semibold md:hidden">
+                <li className="md:hidden">
                     <i
                         onClick={toggleDrawer}
                         className="hover:text-emerald-200 hover:transition-colors py-1 px-2 rounded-xl cursor-pointer"
@@ -53,7 +52,7 @@ const Navbar = () => {
                         <Menu />
                     </i>
                 </li>
-                <li className="font-semibold md:hidden">
+                <li className="md:hidden">
                     <i
                         onClick={toggleDrawer}
                         className="hover:text-emerald-200 hover:transition-colors py-1 px-2 rounded-xl cursor-pointer"
@@ -61,17 +60,17 @@ const Navbar = () => {
                         <Search className="w-5 h-5" />
                     </i>
                 </li>
-                <li className="font-semibold max-md:hidden">
+                <li className="max-md:hidden">
                     <Link href="/" className="flex">
                         <span className="hover:text-emerald-400 hover:transition-colors max-lg:text-[14px]">Home</span>
                     </Link>
                 </li>
-                <li className="font-semibold max-md:hidden">
+                <li className="max-md:hidden">
                     <Link href="/" className="flex">
                         <span className="hover:text-emerald-400 hover:transition-colors max-lg:text-[14px]">Product</span>
                     </Link>
                 </li>
-                <li className="font-semibold max-md:hidden">
+                <li className="max-md:hidden">
                     <Link href="/" className="flex">
                         <span className="hover:text-emerald-400 hover:transition-colors max-lg:text-[14px]">Store</span>
                     </Link>
@@ -87,7 +86,7 @@ const Navbar = () => {
             </div>
 
             <ul className="flex items-center gap-10">
-                <li className="font-semibold md:hidden">
+                <li className="md:hidden">
                     <i
                         onClick={toggleDrawer}
                         className="text-2xl hover:text-emerald-200 hover:transition-colors py-1 px-2 rounded-xl cursor-pointer"
@@ -95,17 +94,17 @@ const Navbar = () => {
                         <ShoppingBag className="w-5 h-5" />
                     </i>
                 </li>
-                <li className="font-semibold max-md:hidden">
+                <li className="max-md:hidden">
                     <Link href="/" className="relative group flex">
                         <span className="hover:text-emerald-400 hover:transition-colors max-lg:text-[14px]">Search</span>
                     </Link>
                 </li>
-                <li className="font-semibold max-md:hidden">
+                <li className="max-md:hidden">
                     <Link href="/" className="relative group flex">
                         <span className="hover:text-emerald-400 hover:transition-colors max-lg:text-[14px]">Cart(0)</span>
                     </Link>
                 </li>
-                <li className="font-semibold max-md:hidden">
+                <li className="max-md:hidden">
                     <Link href="/" className="relative group flex">
                         <span className="hover:text-emerald-400 hover:transition-colors max-lg:text-[14px]">Login</span>
                     </Link>
@@ -151,27 +150,27 @@ const Navbar = () => {
                             {open && (
                                 <ul className="mt-4 pl-4 space-y-3 text-lg text-gray-600">
                                     <li className="py-1">
-                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-thin">
+                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-[300]">
                                             Skincare
                                         </Link>
                                     </li>
                                     <li className="py-1">
-                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-thin">
+                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-[300]">
                                             Makeup
                                         </Link>
                                     </li>
                                     <li className="py-1">
-                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-thin">
+                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-[300]">
                                             Fragrance
                                         </Link>
                                     </li>
                                     <li className="py-1">
-                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-thin">
+                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-[300]">
                                             Bodycare
                                         </Link>
                                     </li>
                                     <li className="py-1">
-                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-thin">
+                                        <Link href="/" className="hover:text-emerald-500 hover:transition-colors font-[300]">
                                             Bundle Package
                                         </Link>
                                     </li>
