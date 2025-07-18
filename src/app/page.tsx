@@ -90,7 +90,7 @@ export default function Home() {
       </div>
 
       {/* Shop Now Section */}
-      <div className='w-full py-15'
+      <div className='w-full py-15 max-md:pb-5'
         style={{
           backgroundImage: 'linear-gradient(to bottom, white 50%, #bffdd0ff 40%, #d3fcdfff 80%, #DFFBE7 100%)',
         }}>
